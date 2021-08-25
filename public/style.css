@@ -86,16 +86,31 @@ form input{
     background-color: #2b2d2f;color: #fff;
 }
 .blogs-view-layout{
-    margin-left: 450px;
-    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
 }
 .blogs-view-content{
     border: 1px #2b2d2f solid;
-    width: 500px;
-    padding: 30px;
-    overflow: hidden;
+    width: 600px;
+    padding: 20px;
+    overflow-y: scroll;
 }
-
+.blogs-view-content h1{
+    text-align: center;
+}
+.login-layout{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.signup-layout{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 @media (max-width: 600px) {
     .index-layout {
         margin-left: 30px;
@@ -145,7 +160,26 @@ form input{
         margin-top: 10px;
         margin-left: 20px;
     }
+    .blogs-view-content, .blogs-view-content > *{
+        width: 60%;
+    }
+    .blogs-view-content{
+        margin-left: 0;
+        
+    }
+    .blogs-view-content p{
+        white-space:normal;
+        margin-left: 50px;
+    }
+    .blogs-view-content h1 {
+        white-space: nowrap;
+        text-align: center;
+        margin-left: 20px;
+    }
     
+    .view-blogs-button{
+        margin-left: 0;
+    }
 }
 
 @media (width: 768px) {

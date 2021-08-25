@@ -5,23 +5,23 @@
 </head>
 <body>
     <%-include('./inc/nav')%>
-    <section>
+    <section class="login-layout">
         <form action="" method="POST" class="login-form">
             <div class="form" style="display: flex;" >
-                <div class="form-group" style="margin-left: 50px;">
+                <div class="form-group">
                     <label for="exampleInputUsername">Username</label>
                     <input name="username" type="text" class="form-control" id="exampleInputUsername" placeholder="Enter Username" style="width: 200px;">
                 </div><br>
-                <div class="form-group" style="margin-left: 30px;">
+                <div class="form-group" style="margin-left: 15px;">
                     <label for="exampleInputPassword1">Password</label>
                     <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" style="width: 200px;">
                 </div><br>
             </div>
-            <div class="form-group form-check" style="margin-left: 50px; margin-top: 10px;">
+            <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div><br>
-            <button type="submit" class="btn btn-primary" value="Login" style="margin-left: 50px;">Log in</button>   
+            <button type="submit" class="btn btn-primary" value="Login">Log in</button>   
         </form>
 
     </section>
