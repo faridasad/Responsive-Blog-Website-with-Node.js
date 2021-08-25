@@ -1,0 +1,158 @@
+form input{
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.about-h1 {
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+.add-blog-anchor{ 
+    color: #2b2d2f; font-size: 20px; font-weight: bold; 
+}
+.add-blog-button{
+    margin-left:50px;width:160px;height: 40px;background-color: #fff;border: 1px #2b2d2f solid;border-radius: 4px;color: #2b2d2f;font-size: 18px;font-weight: 500;transition: 300ms all;
+}
+.add-blog-button:hover{
+    background-color: #2b2d2f; color: #fff;
+}
+.admin-container #admin-arrow-right-icon{
+    margin-left: 15px; transition: 200ms all;
+}
+.admin-container a:hover #admin-arrow-right-icon{
+    margin-left: 25px; transform: scale(1.2);
+}
+.admin-container a{
+    color: #2b2d2f; font-size: 20px; font-weight: bold; text-decoration: none; 
+}
+.admin-delete-button{
+    width: 80px;height: 30px;background-color: #fff;border: 1px #2b2d2f solid;border-radius: 4px;color: #2b2d2f;font-size: 18px;font-weight: 500;transition: 300ms all;
+}
+.admin-delete-button:hover{
+    background-color: #2b2d2f;color: #fff;
+}
+.admin-add-article{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+.admin-add-article .form-group{
+    width: 500px;
+}
+.admin-add-article-header{
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.admin-layout{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.admin-layout-header{
+    margin-left: 50px;
+}
+.admin-container li{
+    list-style: none;
+    border: 1px #2b2d2f solid;
+    width: 700px;
+    padding: 50px;
+}
+
+.index-layout{
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.index-layout-header{
+    margin-left: 50px;
+}
+.index-container li{
+    border: 1px #2b2d2f solid;
+    list-style: none;
+    width: 700px;
+    padding: 50px;
+}
+.index-container a{
+    color: #2b2d2f; font-size: 20px; font-weight: bold; text-decoration: none;
+}
+.index-container a li i{
+    margin-left: 15px; transition: 200ms all;
+}
+.index-container a:hover > li i{
+    margin-left: 25px; transform: scale(1.2);
+}
+.view-blogs-button{
+    width: 160px;height: 40px;background-color: #fff;border: 1px #2b2d2f solid;border-radius: 4px;color: #2b2d2f;font-size: 18px;font-weight: 500;transition: 300ms all;
+}
+.view-blogs-button:hover{
+    background-color: #2b2d2f;color: #fff;
+}
+.blogs-view-layout{
+    margin-left: 450px;
+    margin-top: 70px;
+}
+.blogs-view-content{
+    border: 1px #2b2d2f solid;
+    width: 500px;
+    padding: 30px;
+    overflow: hidden;
+}
+
+@media (max-width: 600px) {
+    .index-layout {
+        margin-left: 30px;
+    }
+    .index-container li {
+        width: 80%;
+    }
+    .view-blogs-button{
+        margin-left: -300px;
+    }
+    .blogs-view-content > *{
+        width: 80%;
+    }
+    .blogs-view-content{
+        margin-left: -300px;
+    }
+    #navbarSupportedContent ul li:not(:first-child) {
+        margin-left: 30px;
+    }
+    .admin-add-article{
+        padding: 30px;
+    }
+    .admin-add-article-header{
+        margin-left: 120px;
+    }
+    .login-form {
+        margin-left: 0;
+    }
+    .signup-form-controller{
+        flex-direction: column;
+    }
+    #exampleInputEmail1{
+        width: 200px;
+    }
+    .signup-email-field-controller{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    #emailHelp{
+        margin-bottom: 10px;
+    }
+    #check-box-controller{
+        margin-left: 20px;
+    }
+    #signup-button-controller{
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    
+}
+
+@media (width: 768px) {
+    .index-layout{
+        margin-left: 100px;
+    }
+    .index-container li {
+        width: 80%;
+    }
+}
